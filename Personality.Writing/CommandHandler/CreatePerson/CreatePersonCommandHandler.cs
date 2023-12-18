@@ -12,6 +12,9 @@ using System.Threading.Tasks;
 
 namespace Personality.Writing.CommandHandler.CreatePerson
 {
+    /// <summary>
+    /// Обработчик команды обновления лица
+    /// </summary>
     public class CreatePersonCommandHandler : ICommandHandler<CreatePersonCommand, CreatePersonResponse>
     {
         private readonly IIdGenerator idGenerator;
