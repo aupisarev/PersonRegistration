@@ -1,4 +1,6 @@
-﻿namespace Personality.Domain.Base
+﻿using System;
+
+namespace Personality.Domain.Base
 {
     /// <summary>
     /// Уникальный идентификатор сущности
