@@ -1,10 +1,10 @@
-﻿namespace Personality.Writing.Base
+﻿namespace Personality.Reading.Base
 {
     /// <summary>
-    /// Команда
+    /// Запрос
     /// </summary>
     /// <typeparam name="TResult">Тип результата</typeparam>
-    public interface ICommand<TResult> where TResult : IResponse
+    public interface IQuery<TResult> where TResult : IResponse
     {
     }
 }
